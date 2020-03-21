@@ -7,3 +7,8 @@ gmall-user-web用户服务的web层8080
 
 gamll-manage-service用户服务service层8071
 gmall-manage-web用户服务的web层8081
+
+# gmall-item-service 前台商品详情服务 （操作的sku,spu在gamll-manage-service已经存在）
+
+gmall-item-web 前台商品详情展示8082
+
