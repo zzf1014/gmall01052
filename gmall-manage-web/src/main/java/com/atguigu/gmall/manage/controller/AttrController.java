@@ -39,4 +39,14 @@ public class AttrController {
         List<PmsBaseAttrValue> pmsBaseAttrValues = attrService.getAttrValueList(attrId);
         return  pmsBaseAttrValues;
     }
+<<<<<<< HEAD
+=======
+
+    @RequestMapping("baseSaleAttrList")
+    @ResponseBody
+    public List<PmsBaseSaleAttr> bsaeSaleAttrList(){
+        List<PmsBaseSaleAttr> pmsBaseSaleAttrs = attrService.bsaeSaleAttrList();
+        return  pmsBaseSaleAttrs;
+    }
+>>>>>>> origin/02spu
 }
